@@ -10,3 +10,24 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+html {
+  --100dvh: 100vh;
+}
+
+html.dvh {
+  --100dvh: 100dvh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--mantine-color-gray-8);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}

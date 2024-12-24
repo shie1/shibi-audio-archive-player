@@ -1,7 +1,8 @@
+import { Text } from "@mantine/core";
 import { NextPage } from "next";
 
 const Home: NextPage = () => {
-  return <h1>Hello, World!</h1>;
+  return <Text>Hello, World!</Text>;
 }
 
 export default Home;
